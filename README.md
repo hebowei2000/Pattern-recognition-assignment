@@ -1,5 +1,5 @@
 # Pattern recognition assignment-Part 1
-This part utilize the perceptron model and neural network model to achieve the classfication task on UCI/ICS dataset. Besides, single hidden layer autoencoder and multi hidden layer autoencoder are implemented. This work is totally based on basic python libs like numpy and pandas. Nomodern deep learning frameworks like pytorch/tensorflow/Mxnet/Keras are employed. 
+This part utilizes the perceptron model and neural network model to complete the classfication task on UCI/ICS dataset. Besides, single hidden layer autoencoder and multi hidden layer autoencoder are implemented. This work is totally based on basic python libs like numpy and pandas. No modern deep learning frameworks like pytorch/tensorflow/Mxnet/Keras are employed. 
 
 ## Classifier
 
