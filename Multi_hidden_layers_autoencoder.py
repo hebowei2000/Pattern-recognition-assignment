@@ -9,8 +9,20 @@ y=df.iloc[0:1000,4].values
 y=np.where(y=='Iris-setosa',0.0,1.0)
 x = df.iloc[0:1000,[0,2]].values
 random.seed(0)
+class tools():
+    def rand(a,b):
+        return (b-a)*random.random()+a
+    def set_m(n,m):
+        a=[];
+        for i in range(n):
+            a.append([0.0]*m)
+        return a
+    def sigmoid(x):
+        return 1.0/(1.0+math.exp(-x))
+    def sigmoid_derivate(x):
+        return x*(1-x)
 ###############
-class bpnn():
+class Mulautoencoder():
     def _init_(self):
         self.inputn=0
         self.hiddenn1=0
@@ -124,11 +136,11 @@ class bpnn():
                 errors = errors/len(n)
                 self.errors_.append(errors)
 ####################################
-nn=bpnn()
+mac=Mulautoencoder()
 y=x
-nn.train(x,y)
+mac.train(x,y)
 #######################################
-plt.plot(range(1, len(nn.errors_) + 1), nn.errors_, marker='o')
+plt.plot(range(1, len(mac.errors_) + 1), mac.errors_, marker='o')
 plt.xlabel('Epochs')
 plt.ylabel('averaged restruction error')
 plt.show()

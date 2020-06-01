@@ -6,16 +6,16 @@ This part utilizes the perceptron model and neural network model to complete the
 The classification error curves of neural network (Light)  and neural perceptron (Right) are  shown below:
 
 <div align="center">
-    <img src="pics/BP_for_classification.png" width = 48% >
-    <img src="pics/MLP_for_classification.png" width = 48% >
+    <img src="pics/NN_for_classification.png" width = 48% >
+    <img src="pics/Perceptron_for_classification.png" width = 48% >
 </div>
 
 
 ## Autoencoder
 
-The averaged reconstruction errors obtained by multi layer autoencoder (Light) and single layer autoencoder (Right) are shown below:
+The averaged reconstruction errors obtained by multi hidden layers autoencoder (Light) and single hidden layer autoencoder (Right) are shown below:
 <div align="center">
-    <img src="pics/Multi_hidden_layer_autoencoder.png" width = 48% >
+    <img src="pics/Multi_hidden_layers_autoencoder.png" width = 48% >
     <img src="pics/single_hidden_layer_autoencoder.png" width = 48% >
 </div>
 

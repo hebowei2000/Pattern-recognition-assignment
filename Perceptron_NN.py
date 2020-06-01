@@ -62,6 +62,7 @@ plt.xlabel('Epochs')
 plt.ylabel('Number of misclassifications')
 plt.show()
 ###############################
+##we test three groups pf random seeds
 random.seed(0)
 class tools():
     def rand(a,b):
